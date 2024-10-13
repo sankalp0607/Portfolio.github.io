@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sankalp Shukla Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+    <script src="port.js" defer></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="logo.jpg" alt="Sankalp's Logo" class="logo">
+        <h1>Sankalp Shukla</h1>
+        <p>Web Developer | Creative Designer</p>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <img src="profile.jpeg" alt="Sankalp's Profile Picture" class="profile-pic">
+        <h2>About Me</h2>
+        <p>Hello! I'm Sankalp, a passionate web developer with a knack for creating visually appealing and functional websites. I love bringing ideas to life on the web!</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <h2>My Skills</h2>
+        <section class="skills">
+            <h2>My Skills</h2>
+            <div class="skills-list">
+                <div class="skill-item" onclick="showPopup('HTML')">HTML</div>
+                <div class="skill-item" onclick="showPopup('CSS')">CSS</div>
+                <div class="skill-item" onclick="showPopup('JavaScript')">JavaScript</div>
+                <div class="skill-item" onclick="showPopup('React')">React</div>
+                <div class="skill-item" onclick="showPopup('Node.js')">Node.js</div>
+            </div>
+        </section>
+        
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span id="popup-text"></span>
+                <button onclick="closePopup()">Close</button>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <!-- Project 1 -->
+            <div class="project-item">
+                <img src="project1.png" alt="Project 1 Image">
+                <h3>Project 1</h3>
+                <p> A simple, organized, and interactive to-do list that allows users to add, mark, and remove tasks effortlessly.</p>
+                <a href="https://sankalp0607.github.io/Todo-list/" target="_blank">TO-do List</a>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-item">
+                <img src="project2.png" alt="Project 2 Image">
+                <h3>Project 2</h3>
+                <p> Sankalp's innovative tech projects and skills with a sleek, engaging landing page that highlights expertise and drives connections</p>
+                <a href="https://sankalp0607.github.io/landingpage/" target="_blank">Landing-Page</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- linkdin Section -->
+    <section class="contact">
+        <h2>Design with Energy and Creativity</h2>
+        <p>Discover the vibrant side of web design, where every pixel has a purpose. Create something that stands out and captivates your audience.</p>
+        <a href="https://www.linkedin.com/in/sankalp-shukla-298723263" class="cta" target="_blank">Join Us on LinkedIn</a>
+    </section>
+
+
+</body>
+</html>
